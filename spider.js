@@ -16,7 +16,6 @@ request(param.url, function (error, response, body) {
 
     console.log('body:', body);
 
-
     // cheerio需要先load html
     let $ = cheerio.load(body);
 
